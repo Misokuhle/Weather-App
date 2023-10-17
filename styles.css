@@ -14,6 +14,10 @@ body {
     margin: 0;
     padding: 100px;
     background-color: #4986E1;
+    background-image: url(assets/giphy-birds.gif);
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 
 .container {
