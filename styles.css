@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Sanchez;
+    src: url(./fonts/Sanchez-Regular.ttf);
+}
+
+@font-face {
+    font-family: Archivo-Medium;
+    src: url(./fonts/Archivo-Medium.ttf);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+
+}
+
+.container {
+    max-width: 500px; 
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1 {
+    font-family: 'Archivo-Medium', sans-serif;
+    color: #007BFF;
+}
+
+.container input,
+.container button {
+    font-family: 'Sanchez', sans-serif;
+}
+
+.container input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/*.container button:hover {
+    background-color: #0056b3;
+}*/
+
+
+input {
+    padding: 10px;
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+/*button.wrong-input {
+    background-color: red;
+    color:black;
+    font-family: Sanchez;
+}*/
+
+#weatherInfo {
+    margin-top: 20px;
+}
+
+
