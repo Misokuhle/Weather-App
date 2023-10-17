@@ -85,4 +85,9 @@ button {
     margin-top: 20px;
 }
 
-
+.error {
+    color: red;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: .9em;
+}
