@@ -8,8 +8,8 @@ function getWeather() {
     weatherInfo.innerHTML = '<p>Loading...</p>';
 
     // Replace 'YOUR_API_KEY' with your actual API key
-    const apiKey = 'a01d474d26e8d57feb4807aa00765281';
-    const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=a01d474d26e8d57feb4807aa00765281&units=metric`;
+    const apiKey = 'YOUR_API_KEY';
+    const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid='YOUR_API_KEY'&units=metric`;
     
     locationInput.style.borderColor = '';
 
