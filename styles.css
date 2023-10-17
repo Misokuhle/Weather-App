@@ -12,7 +12,8 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
-
+    padding: 100px;
+    background-color: #4986E1;
 }
 
 .container {
