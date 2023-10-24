@@ -36,8 +36,7 @@ function getWeather() {
         .catch(error => {
             const weatherInfo = document.getElementById("weatherInfo");
             weatherInfo.innerHTML = `<p class="error">${error.message}</p>`;
-
-            //Set the border color to red if there's an error
+            
             locationInput.style.borderColor = 'red';
            
         document.querySelector("button").classList.add("wrong-input");
